@@ -34,9 +34,9 @@ echo "{
     },
     \"timeout\":120,
     \"method\":\"aes-256-cfb\",
-    \"protocol\":\"auth_sha1_v4\",
+    \"protocol\":\"auth_chain_a\",
     \"protocol_param\":\"\",
-    \"obfs\":\"http_simple\",
+    \"obfs\":\"tls1.2_ticket_auth\",
     \"obfs_param\":\"\"
 }
 "> user-config.json
