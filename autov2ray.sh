@@ -27,6 +27,9 @@ echo "{
             \"alterId\": 64
           }
         ]
+      },
+      \"streamSettings\": {
+        \"network\":\"ws\"
       }
     }
   ],
