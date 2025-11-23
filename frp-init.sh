@@ -6,4 +6,5 @@ apt update
 apt install unzip
 unzip frp_0.53.2_linux_amd64.zip
 cd frp_0.53.2_linux_amd64/
+chmod +x *
 ./frps -c frps.toml
