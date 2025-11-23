@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Hello World. The time is now $(date -R)!" | tee /root/userdata_test.txt
-cd ~
+cd /root
 rm -rf frp_0.53.2_linux_amd64*
 wget https://sugoime.oss-cn-hangzhou.aliyuncs.com/frp/frp_0.53.2_linux_amd64.zip
 apt update
